@@ -34,13 +34,3 @@ patches:
       version: v1
       kind: ClusterLogForwarder
       name: instance
-  - target:
-      group: operators.coreos.com
-      version: v1alpha1
-      kind: Subscription
-      name: cluster-logging
-      namespace: openshift-logging
-    patch: |
-      - op: replace
-        path: /spec/channel
-        value: "stable-6.3"
