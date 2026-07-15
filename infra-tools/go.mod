@@ -1,14 +1,14 @@
 module github.com/redhat-appstudio/infra-deployments/infra-tools
 
-go 1.24.5
+go 1.25.0
 
 require (
 	github.com/charmbracelet/log v0.4.2
 	github.com/google/go-github/v68 v68.0.0
 	github.com/onsi/gomega v1.39.1
 	github.com/pmezard/go-difflib v1.0.0
-	golang.org/x/sync v0.19.0
-	golang.org/x/term v0.39.0
+	golang.org/x/sync v0.20.0
+	golang.org/x/term v0.43.0
 	gopkg.in/yaml.v3 v3.0.1
 	sigs.k8s.io/kustomize/api v0.21.1
 	sigs.k8s.io/kustomize/kyaml v0.21.1
@@ -45,9 +45,9 @@ require (
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/protobuf v1.36.7 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
